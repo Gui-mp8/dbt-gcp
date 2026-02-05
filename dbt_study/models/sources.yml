@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: datamart_sas_bronze
+    database: sebrae-data-analytics
+    schema: datamart_sas_bronze
+    tables:
+      - name: combo
+      - name: combo_disponibilizacao
+      - name: combo_disponibilizacao_detalhe
